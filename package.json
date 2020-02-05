@@ -1,5 +1,5 @@
 {
-  "name": "ajv-moment",
+  "name": "ajv-moment-patched",
   "version": "2.0.4-pre",
   "description": "robust date validation for ajv",
   "main": "./dist/index.js",
