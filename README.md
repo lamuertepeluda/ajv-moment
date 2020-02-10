@@ -323,6 +323,7 @@ const validData = {
 };
 ```
 
+**Important** `undefined` or `null` values for `validate.value.$data` will make the test pass, i.e. when comparing against an optional/nullable dependency, the test will pass. It will be performed only if the referenced value is a date string, or now.
 
 ## Testing
 run all tests  
